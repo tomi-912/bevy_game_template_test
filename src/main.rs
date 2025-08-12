@@ -17,7 +17,7 @@ fn main() {
             DefaultPlugins
                 .set(WindowPlugin {
                     primary_window: Some(Window {
-                        title: "Bevy game".to_string(), // ToDo
+                        title: "my bevy game".to_string(), // ToDo
                         // Bind to canvas included in `index.html`
                         canvas: Some("#bevy".to_owned()),
                         fit_canvas_to_parent: true,
